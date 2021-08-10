@@ -33,8 +33,8 @@ void unique_two(int a[],int n)
 }
 int main()
 {
-    int a[]={1,2,3,4,2,1};
-    int n=sizeof(a)/sizeof(a[0]);
+    int arr[]={1,2,3,4,2,1};
+    int n=sizeof(arr)/sizeof(arr[0]);
     unique_two(a,n);
     return 0;
 }
