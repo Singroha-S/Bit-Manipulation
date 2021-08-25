@@ -4,7 +4,7 @@ int getbit(int n, int pos)
 {
     return((n & (1<<pos))!=0);
 }
-int setbit(int n, int pos)
+int setbit(int n,int pos)
 {
     return (n | (1<<pos));
 }
