@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int n=0b001;
-    cout<<n;
+    int num=0b001;
+    cout<<num;
     return 0;
 }
